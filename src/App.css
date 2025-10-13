@@ -33,14 +33,18 @@
     }
 }
 
+.app {
+    background-color: #fbeee8;
+    color: #f08080;
+}
+
 .navbar {
     width: 50px;
-    background-color: #fbeee8;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Poppins", sans-serif;
-    color: #f08080;
 }
 
 .nav-toggle {
@@ -58,7 +62,6 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #f08080;
     transition: background-color 0.3s ease;
     font-weight: 500;
 }
@@ -73,5 +76,4 @@
 
 .nav-link.active {
     background-color: #f7d3c2;
-    color: #dd7070;
 }

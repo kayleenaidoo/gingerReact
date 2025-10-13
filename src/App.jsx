@@ -2,15 +2,16 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import * as Pages from "./pages/index.js";
 import Header from "./components/header";
+import Footer from "./components/Footer";
 
 export default function App() {
     return (
-        <div class="bg-gray-100 min-h-screen w-screen font-sans">
+        <div class="app min-h-screen max-w-screen font-sans">
             <div className="flex">
                 <Navbar />
                 <div className="flex-grow">
                     <Header />
-                    <div className="p-5">
+                    <div className="p-5 min-h-screen">
                         <Routes>
                             <Route path="/" element={<Pages.Home />} />
                             <Route
@@ -30,6 +31,7 @@ export default function App() {
                             <Route path="/review" element={<Pages.Reviews />} />
                         </Routes>
                     </div>
+                    <Footer />
                 </div>
             </div>
             <style>{`
