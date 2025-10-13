@@ -9,24 +9,9 @@
     font-family: sans-serif;
 }
 
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
-    }
-}
-
 /* primary theme colour */
 .primary {
-    color: #636363;
+    color: #474747;
 }
 /* seondary theme colour */
 .secondary {
@@ -34,18 +19,15 @@
 }
 
 .nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
     transition: background-color 0.3s ease;
-    font-weight: 500;
 }
-
 .nav-link:hover {
     background-color: #f8dcd1;
 }
-
 .nav-link.active {
     background-color: #f7d3c2;
+}
+
+.icon {
+    color: #f08080;
 }

@@ -14,9 +14,10 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     const getNavLinkClass = ({ isActive }) => {
-        return isActive
-            ? "nav-link active w-100 text-sm"
-            : "nav-link w-100 text-sm";
+        return (
+            "nav-link flex flex-col font-medium items-center w-100 text-sm" +
+            (isActive ? " active" : "")
+        );
     };
 
     return (

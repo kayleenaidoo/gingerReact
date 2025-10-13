@@ -20,8 +20,9 @@
 # Tech Stack
 
 -   React + Vite
--   tailwindcss
--   trailbase
+-   React Router
+-   Tailwindcss
+-   Trailbase
 
 # TODO
 
