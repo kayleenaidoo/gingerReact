@@ -20,7 +20,7 @@ export default function Navbar() {
     };
 
     return (
-        <div className="overflow-hidden flex flex-col items-center gap-2 w-20 font-sans mt-4">
+        <div className="secondary overflow-hidden flex flex-col items-center gap-2 w-20 mt-4">
             <Icon path={mdiMenu} size={1} />
             <li>
                 <NavLink to="/" className={getNavLinkClass}>

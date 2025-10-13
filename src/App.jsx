@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
     return (
-        <div class="min-h-screen max-w-screen font-sans">
+        <div class="primary min-h-screen max-w-screen">
             <div className="flex">
                 <Navbar />
                 <div className="flex-grow">
