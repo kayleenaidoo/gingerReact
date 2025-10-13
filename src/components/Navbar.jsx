@@ -25,44 +25,56 @@ export default function Navbar() {
             <ul className="nav-menu">
                 <li>
                     <NavLink to="/" className={getNavLinkClass}>
-                        <Icon path={mdiHomeVariant} size={1} />
+                        <Icon path={mdiHomeVariant} size={1} className="icon" />
                         <span>Home</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/profile" className={getNavLinkClass}>
-                        <Icon path={mdiAccount} size={1} />
+                        <Icon path={mdiAccount} size={1} className="icon" />
                         <span>Profile</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/notifications" className={getNavLinkClass}>
-                        <Icon path={mdiBell} size={1} />
+                        <Icon path={mdiBell} size={1} className="icon" />
                         <span>Notifications</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/messages" className={getNavLinkClass}>
-                        <Icon path={mdiMessage} size={1} />
+                        <Icon path={mdiMessage} size={1} className="icon" />
                         <span>Messages</span>
                     </NavLink>
                 </li>
                 <li>
                     {/* Removed the hardcoded 'active' class here */}
                     <NavLink to="/groups" className={getNavLinkClass}>
-                        <Icon path={mdiAccountGroup} size={1} />
+                        <Icon
+                            path={mdiAccountGroup}
+                            size={1}
+                            className="icon"
+                        />
                         <span>Groups</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/lists" className={getNavLinkClass}>
-                        <Icon path={mdiClipboardText} size={1} />
+                        <Icon
+                            path={mdiClipboardText}
+                            size={1}
+                            className="icon"
+                        />
                         <span>Lists</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/review" className={getNavLinkClass}>
-                        <Icon path={mdiStarSettings} size={1} />
+                        <Icon
+                            path={mdiStarSettings}
+                            size={1}
+                            className="icon"
+                        />
                         <span>Review</span>
                     </NavLink>
                 </li>

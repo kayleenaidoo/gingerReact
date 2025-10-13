@@ -1,25 +1,35 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import * as Pages from "./pages/index.js";
+import Header from "./components/header";
 
 export default function App() {
     return (
         <div class="bg-gray-100 min-h-screen w-screen font-sans">
             <div className="flex">
-                <Navbar className="mr-4" />
-                <div className="mt-8">
-                    <Routes className="relative bg-white p-8 md:p-12 rounded-2xl shadow-lg overflow-hidden text-center">
-                        <Route path="/" element={<Pages.Home />} />
-                        <Route path="/profile" element={<Pages.Profile />} />
-                        <Route
-                            path="/notifications"
-                            element={<Pages.Notifications />}
-                        />
-                        <Route path="/messages" element={<Pages.Messages />} />
-                        <Route path="/groups" element={<Pages.Groups />} />
-                        <Route path="/lists" element={<Pages.Lists />} />
-                        <Route path="/review" element={<Pages.Reviews />} />
-                    </Routes>
+                <Navbar />
+                <div className="flex-grow">
+                    <Header />
+                    <div className="p-5">
+                        <Routes>
+                            <Route path="/" element={<Pages.Home />} />
+                            <Route
+                                path="/profile"
+                                element={<Pages.Profile />}
+                            />
+                            <Route
+                                path="/notifications"
+                                element={<Pages.Notifications />}
+                            />
+                            <Route
+                                path="/messages"
+                                element={<Pages.Messages />}
+                            />
+                            <Route path="/groups" element={<Pages.Groups />} />
+                            <Route path="/lists" element={<Pages.Lists />} />
+                            <Route path="/review" element={<Pages.Reviews />} />
+                        </Routes>
+                    </div>
                 </div>
             </div>
             <style>{`
