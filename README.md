@@ -1,16 +1,28 @@
-# React + Vite
+# Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   new bash ternminal
+-   run `npm install`
 
-Currently, two official plugins are available:
+# To run Local Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   bash terminal:
+-   run `npm run dev`
+-   open browser link (most likely http://localhost:5174/)
 
-## React Compiler
+# Working Guide
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. create new branch from main/master (call it "adding feaure abc..")
+2. work work work
+3. NB - fetch latest main/master branch
+4. NB - merge main/master into your branch (to resolve any merge conflicts on your own branch first and test that it works)
+5. merge your branch into master
 
-## Expanding the ESLint configuration
+# Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React + Vite
+-   tailwindcss
+-   trailbase
+
+# TODO
+
+-
