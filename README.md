@@ -1,5 +1,9 @@
-# Setup
+# Setup - Install
 
+-   install npm (https://nodejs.org/en/download)
+-   -   download and run installer for correct operating system ![alt text](image.png)
+-   clone repo
+-   open repo in vscode
 -   new bash ternminal
 -   run `npm install`
 
