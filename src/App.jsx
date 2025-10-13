@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HomePage from "./pages/Home";
+import * as Pages from "./pages/index.js";
 
 export default function App() {
     return (
@@ -9,7 +9,16 @@ export default function App() {
                 <Navbar className="mr-4" />
                 <div className="mt-8">
                     <Routes className="relative bg-white p-8 md:p-12 rounded-2xl shadow-lg overflow-hidden text-center">
-                        <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Pages.Home />} />
+                        <Route path="/profile" element={<Pages.Profile />} />
+                        <Route
+                            path="/notifications"
+                            element={<Pages.Notifications />}
+                        />
+                        <Route path="/messages" element={<Pages.Messages />} />
+                        <Route path="/groups" element={<Pages.Groups />} />
+                        <Route path="/lists" element={<Pages.Lists />} />
+                        <Route path="/review" element={<Pages.Reviews />} />
                     </Routes>
                 </div>
             </div>
