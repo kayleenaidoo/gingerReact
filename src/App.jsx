@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 
 export default function App() {
     return (
-        <div class="app min-h-screen max-w-screen font-sans">
+        <div class="min-h-screen max-w-screen font-sans">
             <div className="flex">
                 <Navbar />
                 <div className="flex-grow">
                     <Header />
-                    <div className="p-5 min-h-screen">
+                    <div className="min-h-screen">
                         <Routes>
                             <Route path="/" element={<Pages.Home />} />
                             <Route

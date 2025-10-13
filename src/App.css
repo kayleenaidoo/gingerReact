@@ -2,20 +2,10 @@
 
 #root {
     margin: 0 auto;
-    padding: 1rem;
+    padding: 4px;
     text-align: center;
-}
-
-.logo {
-    height: 6em;
-    will-change: filter;
-    transition: filter 300ms;
-}
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+    background-color: #fbeee8;
+    color: #f08080;
 }
 
 @keyframes logo-spin {
@@ -31,17 +21,6 @@
     a:nth-of-type(2) .logo {
         animation: logo-spin infinite 20s linear;
     }
-}
-
-.app {
-    background-color: #fbeee8;
-    color: #f08080;
-}
-
-.nav-toggle {
-    font-size: 28px;
-    cursor: pointer;
-    color: #555;
 }
 
 .nav-link {

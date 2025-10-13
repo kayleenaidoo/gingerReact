@@ -14,11 +14,13 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     const getNavLinkClass = ({ isActive }) => {
-        return isActive ? "nav-link active w-100" : "nav-link w-100";
+        return isActive
+            ? "nav-link active w-100 text-sm"
+            : "nav-link w-100 text-sm";
     };
 
     return (
-        <div className="overflow-hidden flex flex-col items-center gap-2 w-20 font-sans">
+        <div className="overflow-hidden flex flex-col items-center gap-2 w-20 font-sans mt-4">
             <Icon path={mdiMenu} size={1} />
             <li>
                 <NavLink to="/" className={getNavLinkClass}>
