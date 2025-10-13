@@ -23,6 +23,8 @@
 -   React Router
 -   Tailwindcss
 -   Trailbase
+-   Highly Recommend Git Fork (https://git-fork.com/)
+-   VS Code
 
 # TODO
 
