@@ -14,7 +14,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
                     >
-                        <Icon path={mdiFacebook} size={1} />
+                        <Icon path={mdiFacebook} size={1} className="icon" />
                     </a>
                     <a
                         href="https://twitter.com"
@@ -22,7 +22,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-blue-400 transition-colors duration-200"
                     >
-                        <Icon path={mdiTwitter} size={1} />
+                        <Icon path={mdiTwitter} size={1} className="icon" />
                     </a>
                     <a
                         href="https://instagram.com"
@@ -30,7 +30,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-pink-600 transition-colors duration-200"
                     >
-                        <Icon path={mdiInstagram} size={1} />
+                        <Icon path={mdiInstagram} size={1} className="icon" />
                     </a>
                     <a
                         href="https://linkedin.com"
@@ -38,7 +38,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-blue-700 transition-colors duration-200"
                     >
-                        <Icon path={mdiLinkedin} size={1} />
+                        <Icon path={mdiLinkedin} size={1} className="icon" />
                     </a>
                 </div>
 

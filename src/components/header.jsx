@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg";
-import { mdiBell, mdiCog } from "@mdi/js";
+import { mdiBellOutline, mdiCogOutline } from "@mdi/js";
 import Icon from "@mdi/react";
 
 export default function Header() {
@@ -13,8 +13,8 @@ export default function Header() {
                 <span className="text-base font-medium text-gray-800">
                     username
                 </span>
-                <Icon path={mdiBell} size={1} className="icon" />
-                <Icon path={mdiCog} size={1} className="icon" />
+                <Icon path={mdiBellOutline} size={1} className="icon" />
+                <Icon path={mdiCogOutline} size={1} className="icon" />
             </div>
         </header>
     );
