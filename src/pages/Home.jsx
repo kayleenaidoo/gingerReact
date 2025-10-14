@@ -34,6 +34,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div>
+                if (!loggedIn || guest) then signupblock
+            </div>
         </div>
     );
 }
