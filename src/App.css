@@ -3,7 +3,6 @@
 #root {
     margin: 0 auto;
     padding: 4px;
-    text-align: center;
     background-color: #fbeee8;
 
     font-family: sans-serif;
@@ -30,4 +29,12 @@
 
 .icon {
     color: #f08080;
+}
+
+div {
+    outline: 1px solid orange;
+}
+
+book{
+    outline: 1px solid red;
 }
