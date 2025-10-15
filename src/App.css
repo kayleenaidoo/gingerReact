@@ -3,32 +3,74 @@
 #root {
     margin: 0 auto;
     padding: 4px;
-    background-color: #fbeee8;
-
+    background-color: #fff4f2;
     font-family: sans-serif;
+
+    --primary-color: #fff4f2;   
+    --primary-color-hover:  #fff4f279;
+    --secondary-color:#ff6c40;
+    --secondary-color-hover:#ff6d4086;
+    --tertiary-colour:#fcdcc8;
+    --tertiary-colour-hover:#fcdcc87c;
+    
+    --text-color-primary:#474747;  
+    --text-color-secondary: #f5f5f5;
+    --text-color-tertiary: #fcdcc8;
+
+    --background-color: #fff4f2;
+
+    --border-color: #D1D5DB;        
+    --border-radius-sm: 4px;         
+    --border-radius-md: 8px;
 }
 
-/* primary theme colour */
+/* primary theme */
 .primary {
-    color: #474747;
+    color: var(--text-color-primary);
 }
-/* seondary theme colour */
-.secondary {
-    color: #f08080;
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color-primary);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.button-primary:hover {
+  background-color: var(--primary-color-hover);
 }
 
-.nav-link {
-    transition: background-color 0.3s ease;
+/* seondary theme */
+.secondary {
+    color: var(--secondary-color);
 }
-.nav-link:hover {
-    background-color: #f8dcd1;
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color-secondary);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
-.nav-link.active {
-    background-color: #f7d3c2;
+.button-secondary:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+/* tertiary theme */
+.tertiary {
+    color: var(--text-color-tertiary);
+}
+.button-tertiary {
+  background-color: #fcdcc8;
+  color: var(--text-color-primary);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.button-tertiary:hover {
+  background-color: var(--tertiary-color-hover);
 }
 
 .icon {
-    color: #f08080;
+    color: #ffa286;
 }
 
 div {
