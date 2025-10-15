@@ -9,7 +9,7 @@ export default function Header() {
                 <img src={logo} alt="Ink & Ginger Logo" className="h-28" />
             </div>
 
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-4">
                 <div className="flex gap-4">{/* if (!loggedIn || guest) */}
                     <button className="button-tertiary py-2 px-4">
                         Sign in
@@ -19,7 +19,7 @@ export default function Header() {
                     </button>
                 </div>
                 <div className="text-xl font-medium primary"> {/* else*/}
-                    Hi, @username
+                    {/* Hi, @username */}
                 </div>
                 <Icon path={mdiBellOutline} size={1.8} className="primary" />
                 <Icon path={mdiCogOutline} size={1.8} className="primary" />
